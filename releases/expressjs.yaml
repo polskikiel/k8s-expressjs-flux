@@ -8,10 +8,10 @@ metadata:
     filter.fluxcd.io/chart-image: semver:~0.3
 spec:
   chart:
-    repository: https://docker.io/library/polskikiel
-    name: alpine
-    version: 0.1.0
+    repository: https://alexellis.github.io/expressjs-k8s/
+    name: expressjs-k8s
+    version: 0.1.1
   values:
     ingress:
       enabled: false
-    image: alexellis2/service:0.3.7
+    image: polskikiel/alpine:0.1.0
