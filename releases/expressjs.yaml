@@ -8,8 +8,8 @@ metadata:
     filter.fluxcd.io/chart-image: semver:~0.3
 spec:
   chart:
-    repository: https://docker.io
-    name: polskikiel/alpine
+    repository: https://docker.io/library/polskikiel
+    name: alpine
     version: 0.1.0
   values:
     ingress:
